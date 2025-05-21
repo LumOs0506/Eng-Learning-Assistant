@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # OpenAI Configuration
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "sk-6UrlW58XgFmk9C3R6YQExWgEcSQHENYKYfDpuLZmlaEvtnCs")
-OPENAI_API_BASE_URL = os.getenv("OPENAI_API_BASE_URL", "https://api.chatanywhere.tech/")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "Your_Api_Key")
+OPENAI_API_BASE_URL = os.getenv("OPENAI_API_BASE_URL", "Your_base_url")
 
 # Model Configuration
 MODEL_NAME = "gpt-4o-mini-2024-07-18"
